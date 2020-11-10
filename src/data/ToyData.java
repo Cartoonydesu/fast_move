@@ -27,12 +27,13 @@ public class ToyData {
         return parcels;
     }
 
-    //testing
+    //testing--------------------------------------------------------------
     public static void main(String[] args) {
         printBike();
         printPerson();
         printParcels();
     }
+    //testing--------------------------------------------------------------
 
     private static void printBike() {
         Bike[] bikes = getBikes();
