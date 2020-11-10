@@ -34,6 +34,7 @@ public class ToyData {
     public static Parcel[] getParcels() {
         Parcel[] parcels = new Parcel[10];
         Location l = new Location(0.0,0.0);
+        //parcels[0] = new Parcel(1.0,ParcelStatus.SHIPPING,new Location(3.0,3.0));
         parcels[0] = new Parcel(1.0,ParcelStatus.SHIPPING,l);
         parcels[1] = new Parcel(1.0,ParcelStatus.SHIPPING,l);
         parcels[2] = new Parcel(1.0,ParcelStatus.SHIPPING,l);
