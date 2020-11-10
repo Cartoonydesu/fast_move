@@ -35,17 +35,20 @@ public class ToyData {
         Parcel[] parcels = new Parcel[10];
         Location l = new Location(0.0,0.0);
         //parcels[0] = new Parcel(1.0,ParcelStatus.SHIPPING,new Location(3.0,3.0));
-        parcels[0] = new Parcel(1.0,ParcelStatus.SHIPPING,l);
-        parcels[1] = new Parcel(1.0,ParcelStatus.SHIPPING,l);
-        parcels[2] = new Parcel(1.0,ParcelStatus.SHIPPING,l);
-        parcels[3] = new Parcel(1.0,ParcelStatus.SHIPPING,l);
-        parcels[4] = new Parcel(1.0,ParcelStatus.SHIPPING,l);
-        parcels[5] = new Parcel(1.0,ParcelStatus.SHIPPING,l);
-        parcels[6] = new Parcel(1.0,ParcelStatus.SHIPPING,l);
-        parcels[7] = new Parcel(1.0,ParcelStatus.SHIPPING,l);
-        parcels[8] = new Parcel(1.0,ParcelStatus.SHIPPING,l);
-        parcels[9] = new Parcel(1.0,ParcelStatus.SHIPPING,l);
-        
+//        parcels[0] = new Parcel(1.0,ParcelStatus.SHIPPING,l);
+//        parcels[1] = new Parcel(1.0,ParcelStatus.SHIPPING,l);
+//        parcels[2] = new Parcel(1.0,ParcelStatus.SHIPPING,l);
+//        parcels[3] = new Parcel(1.0,ParcelStatus.SHIPPING,l);
+//        parcels[4] = new Parcel(1.0,ParcelStatus.SHIPPING,l);
+//        parcels[5] = new Parcel(1.0,ParcelStatus.SHIPPING,l);
+//        parcels[6] = new Parcel(1.0,ParcelStatus.SHIPPING,l);
+//        parcels[7] = new Parcel(1.0,ParcelStatus.SHIPPING,l);
+//        parcels[8] = new Parcel(1.0,ParcelStatus.SHIPPING,l);
+//        parcels[9] = new Parcel(1.0,ParcelStatus.SHIPPING,l);
+        for (int i = 0; i < parcels.length; i++) {
+            parcels[i] = new Parcel(1.0,ParcelStatus.SHIPPING,l);
+            
+        }
 
         return parcels;
     }
